@@ -1,16 +1,12 @@
-
-## Hi there 👋 🌍 Welcome to Helbec
+# Hi there👋, Welcome to Helbec-Tech🌍
 
 > Innovate. Collaborate. Deliver.
 
-
-
 We are a team of 7 passionate student developers building industry-ready projects with real-world workflows. Inspired by how top tech companies like Dropbox, Amazon, and GitHub operate, we practice modern software development — from version control, CI/CD, and project management to design thinking and agile teamwork.
-
 
 ---
 
-✨ What We Do
+# ✨ What We Do
 
 🛠️ Build Projects → One solid project each month, focusing on solving real problems.
 
@@ -20,23 +16,22 @@ We are a team of 7 passionate student developers building industry-ready project
 
 🎯 Prepare for the Future → Developing habits and workflows used in world-class tech companies.
 
-
-
 ---
 
-📂 Our Structure
+# 📂 Our Structure
 
 helbec/
+
 │── frontend/   → React/Next.js apps  
 │── backend/    → Node.js + Express APIs  
 │── docs/       → Documentation & diagrams  
 │── tests/      → Automated testing  
 │── workflows/  → CI/CD pipelines
 
-
 ---
 
-🧑‍💻 Tech Stack We Love
+# 🧑‍💻 Tech Stack We Love
+Our tech stack depends on the type of projects we will be building but the most used ones are listed below.
 
 Frontend: React.js, Next.js, Tailwind CSS
 
@@ -46,11 +41,9 @@ Databases: MongoDB, PostgreSQL, Supabase
 
 Design & Tools: Figma, GitHub Projects, Notion, Slack/Discord
 
-
-
 ---
 
-🛠️ Workflows We Follow
+# 🛠️ Workflows We Follow
 
 GitHub Flow → Branch → Commit → PR → Review → Merge
 
@@ -64,9 +57,9 @@ Code Quality → Pull request reviews + automated checks
 
 ---
 
-🌟 Our Goals
+# 🌟 Our Goals
 
-1. Deliver 3 solid projects before the end of the year.
+1. Deliver 1 solid project each month.
 
 
 2. Gain real-world experience in teamwork and software development.
@@ -78,29 +71,27 @@ Code Quality → Pull request reviews + automated checks
 4. Grow Helbec into a recognized student dev organization.
 
 
-
-
 ---
 
-👨‍👩‍👧 Team Helbec
+# 👨‍👩‍👧 Team Helbec
 
 A diverse team of 7 (2 females, 5 males) collaborating across multiple skill sets.
 Every project rotates responsibilities so everyone gains experience in different roles.
 
 
-
-📌 Motto
+# 📌 Motto
 
 Helbec → Innovate. Collaborate. Deliver.
 
 
-🔗 Connect With Us
+# 🔗 Connect With Us
 
 🌐 Website: [Coming Soon]
 
 🐙 GitHub: github.com/Helbec
 
 📩 Contact: [Coming Soon]
+
 <!--
 
 **Here are some ideas to get you started:**
