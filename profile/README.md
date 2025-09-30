@@ -2,7 +2,7 @@
 
 > Innovate. Collaborate. Deliver.
 
-We are a team of 7 passionate student developers building industry-ready projects with real-world workflows. Inspired by how top tech companies like Dropbox, Amazon, and GitHub operate, we practice modern software development — from version control, CI/CD, and project management to design thinking and agile teamwork.
+Welcome to the official GitHub organization of Helbec - We are a team of 7 passionate student developers building industry-ready projects with real-world workflows. Inspired by how top tech companies like Dropbox, Amazon, and GitHub operate, we practice modern software development — from version control, CI/CD, and project management to design thinking and agile teamwork.
 
 ---
 
@@ -17,46 +17,6 @@ We are a team of 7 passionate student developers building industry-ready project
 🎯 Prepare for the Future → Developing habits and workflows used in world-class tech companies.
 
 🍿 Fun facts → Our code runs smoother than our Wi-Fi on team calls (Most days).
-
----
-
-# 📂 Our Structure
-
-helbec/
-
-│── frontend/   → React/Next.js apps  
-│── backend/    → Node.js + Express APIs  
-│── docs/       → Documentation & diagrams  
-│── tests/      → Automated testing  
-│── workflows/  → CI/CD pipelines
-
----
-
-# 🧑‍💻 Tech Stack We Love
-
-Our tech stack depends on the type of projects we will be building but the most used ones are listed below.
-  
-  Frontend: React.js, Next.js, Tailwind CSS.
-  
-  Backend: Node.js, Express.js, Django.
-  
-  Databases: MongoDB, PostgreSQL, MySQL.
-  
-  Design & Tools: Figma, Canva, Notion, Trello, Miro, GitHub Projects, Vite.
-
----
-
-# 🛠️ Workflows We Follow
-
-GitHub Flow → Branch → Commit → PR → Review → Merge.
-
-CI/CD → Automated builds, tests, and deployments.
-
-Agile Practices → Sprints, retros, and Kanban boards.
-
-Code Quality → Pull request reviews + automated checks.
-
-
 
 ---
 
@@ -90,15 +50,70 @@ Our goals are divided into short-term and long-term with clarity on what we want
 
 4. Grow into a team that's ready for internships and global opportunities.
 
-   
-   
+---
+
+# 🧑‍💻 Tech Stack We Love
+
+We use modern, battle-tested technologies but our tech stack depends on the type of projects we will be building but the most used ones are listed below.
+
+  
+ - Frontend
+1. Language: HTML, CSS, Javascript
+2. Frameworks: React.js, Next.js
+3. Styling: Tailwind CSS
+
+ - Backend
+1. Language: Node.js, Python, Java
+2. Frameworks: Express.js, Django
+3. Databases: PostgreSQL, MongoDB, MySQL
+
+ - DevOps & Infrastruction
+1. GitHub Actions (CI/CD)
+2. Cloud: AWS, Azure
+
+ - Testing & QA
+1. Jest
+
+ - Documentation & Collaboration
+1. Markdown, GitHub Wiki
+2. Design & Tools: Figma, Canva, Notion, Trello, Miro, GitHub Projects, Vite.
+
+---
+
+# 🛠️ Workflows We Follow
+
+GitHub Flow → Branch → Commit → PR → Review → Merge.
+
+CI/CD → Automated builds, tests, and deployments.
+
+Agile Practices → Sprints, retros, and Kanban boards.
+
+Code Quality → Pull request reviews + automated checks.
+
+
+
 ---
 
 # 👨‍👩‍👧 Team Helbec
 
-A diverse team of 7 collaborating across multiple skill sets.
+Helbec is made up of passionate developers, designers, and innovators working together to build high quality softwares.
+
+
+Frontend Team → UI/UX.
+
+
+Backend Team → APIs, Databases, Integrations.
+
+
+DevOps Team → Automation, CI/CD, Cloud infrastructure.
+
+
+QA & Docs Team → Testing, Documentation, and process clarity.
+
+
 Every project rotates responsibilities so everyone gains experience in different roles.
 
+---
 
 # 📌 Motto
 
