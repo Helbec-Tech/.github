@@ -16,6 +16,8 @@ We are a team of 7 passionate student developers building industry-ready project
 
 🎯 Prepare for the Future → Developing habits and workflows used in world-class tech companies.
 
+🍿 Fun facts → Our code runs smoother than our Wi-Fi on team calls (Most days).
+
 ---
 
 # 📂 Our Structure
@@ -31,51 +33,70 @@ helbec/
 ---
 
 # 🧑‍💻 Tech Stack We Love
+
 Our tech stack depends on the type of projects we will be building but the most used ones are listed below.
-
-Frontend: React.js, Next.js, Tailwind CSS
-
-Backend: Node.js, Express
-
-Databases: MongoDB, PostgreSQL, Supabase
-
-Design & Tools: Figma, GitHub Projects, Notion, Slack/Discord
+  
+  Frontend: React.js, Next.js, Tailwind CSS.
+  
+  Backend: Node.js, Express.js, Django.
+  
+  Databases: MongoDB, PostgreSQL, MySQL.
+  
+  Design & Tools: Figma, Canva, Notion, Trello, Miro, GitHub Projects, Vite.
 
 ---
 
 # 🛠️ Workflows We Follow
 
-GitHub Flow → Branch → Commit → PR → Review → Merge
+GitHub Flow → Branch → Commit → PR → Review → Merge.
 
-CI/CD → Automated builds, tests, and deployments
+CI/CD → Automated builds, tests, and deployments.
 
-Agile Practices → Sprints, retros, and Kanban boards
+Agile Practices → Sprints, retros, and Kanban boards.
 
-Code Quality → Pull request reviews + automated checks
+Code Quality → Pull request reviews + automated checks.
 
 
 
 ---
 
 # 🌟 Our Goals
+Our goals are divided into short-term and long-term with clarity on what we want to achieve as a team🤼.
+
+### 💡 Short-Term
 
 1. Deliver 1 solid project each month.
 
 
-2. Gain real-world experience in teamwork and software development.
+2. Use Agile + Github workflows.
 
 
-3. Build a professional portfolio for every team member.
+3. Publish projects with professional documentation.
 
 
-4. Grow Helbec into a recognized student dev organization.
+4. Launch a team portfolio  website showcasing our work.
 
 
+### 💡 Long-Term
+
+1. Build projects that can be used beyond campus.
+
+
+2. Enter hackathons and tech competitions as a team.
+
+
+3. Grow reputation and present projects at tech events and pitch competitions.
+
+
+4. Grow into a team that's ready for internships and global opportunities.
+
+   
+   
 ---
 
 # 👨‍👩‍👧 Team Helbec
 
-A diverse team of 7 (2 females, 5 males) collaborating across multiple skill sets.
+A diverse team of 7 collaborating across multiple skill sets.
 Every project rotates responsibilities so everyone gains experience in different roles.
 
 
@@ -88,9 +109,13 @@ Helbec → Innovate. Collaborate. Deliver.
 
 🌐 Website: [Coming Soon]
 
-🐙 GitHub: github.com/Helbec
+📩 Email: <a href="mailto:helbectech.team@gmail.com">Helbec-Tech</a>
 
-📩 Contact: [Coming Soon]
+💻 LinkedIn: [Coming Soon] <!-- <a href="">Helbec Tech</a> -->
+
+📱 Instagram: [Coming Soon] <!-- <a href="">Helbec.Tech</a> -->
+
+🤖 X(Twitter): [Coming Soon] <!-- <a href="">Helbec Tech</a> -->
 
 <!--
 
@@ -101,4 +126,5 @@ Helbec → Innovate. Collaborate. Deliver.
 👩‍💻 Useful resources - where can the community find your docs? Is there anything else the community should know?
 🍿 Fun facts - what does your team eat for breakfast?
 🧙 Remember, you can do mighty things with the power of [Markdown](https://docs.github.com/github/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax)
+
 -->
