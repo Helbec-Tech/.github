@@ -1,0 +1,120 @@
+name: "Reusable CI"
+
+on:
+  workflow_call:
+    inputs:
+      node-version:
+        required: false
+        type: string
+        default: "18"
+      run-tests:
+        required: false
+        type: boolean
+        default: true
+      run-lint:
+        required: false
+        type: boolean
+        default: true
+      build:
+        required: false
+        type: boolean
+        default: true
+      publish:
+        required: false
+        type: boolean
+        default: false
+    secrets:
+      NPM_TOKEN:
+        required: false
+
+jobs:
+  checkout:
+    runs-on: ubuntu-latest
+    outputs:
+      node-version: ${{ steps.set-node.outputs.node-version }}
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+      - name: Set node version output
+        id: set-node
+        run: echo "::set-output name=node-version::${{ inputs.node-version }}"
+
+  setup-node:
+    needs: checkout
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Use Node.js ${{ inputs.node-version }}
+        uses: actions/setup-node@v4
+        with:
+          node-version: ${{ inputs.node-version }}
+          cache: 'npm'
+
+  lint:
+    if: ${{ inputs.run-lint == true }}
+    needs: setup-node
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Setup Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: ${{ inputs.node-version }}
+      - name: Install deps
+        run: npm ci
+      - name: Run linter
+        run: npm run lint
+      - name: Upload linter annotations
+        if: failure()
+        run: echo "linter failed"
+
+  test:
+    if: ${{ inputs.run-tests == true }}
+    needs: setup-node
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Setup Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: ${{ inputs.node-version }}
+      - name: Install deps
+        run: npm ci
+      - name: Run tests
+        run: npm test -- --ci --reporter=dot
+      - name: Upload test results
+        if: failure()
+        run: echo "tests failed"
+
+  build:
+    if: ${{ inputs.build == true }}
+    needs: [test, lint]
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Setup Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: ${{ inputs.node-version }}
+      - name: Install deps
+        run: npm ci
+      - name: Build
+        run: npm run build
+
+  publish:
+    if: ${{ inputs.publish == true }}
+    needs: build
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Setup Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: ${{ inputs.node-version }}
+      - name: Install deps
+        run: npm ci
+      - name: Publish to npm (example)
+        env:
+          NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
+        run: |
+          npm publish --access public
