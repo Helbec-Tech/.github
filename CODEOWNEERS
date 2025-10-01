@@ -1,0 +1,6 @@
+# Owners for the whole repo
+* @helbec-tech/frontend-team @helbec-tech/backend-team
+
+# Owners for specific dirs
+/docs/ @helbec-tech/docs-team
+/scripts/ @helbec-tech/devops-team
